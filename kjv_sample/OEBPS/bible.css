@@ -1,0 +1,106 @@
+p {
+    text-indent: 1em;
+}
+
+p.no-indent {
+    text-indent: 0em;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+span.chapter-number {
+    float: left;
+    font-size: 2.2em;
+    vertical-align: top;
+    padding-right: 0.25em;
+    margin-top: -0.1em;
+    margin-bottom: -0.25em;
+}
+
+a.verse-number,
+a.cross-reference {
+    vertical-align: top;
+    font-size: 0.75em;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 0.85em;
+}
+
+.float-left {
+    float:  left;
+}
+
+div.poetry-1 {
+    margin-left: 2em;
+    text-indent: -1em;
+}
+
+div.poetry-2 {
+    margin-left: 3em;
+    text-indent: -1em;
+}
+
+div.poetry-3 {
+    margin-left: 4em;
+    text-indent: -1em;
+}
+
+div.toc-points {
+    padding-top: 1em;
+    display: table-row;
+}
+
+span.toc-point {
+    padding: 0.5em;
+    margin: 0.15em;
+    background: rgba(10, 10, 10, 0.15);
+    float: left;
+    min-width: 2em;
+    text-align: center;
+}
+
+ol.toc * {
+    list-style-type: none;
+}
+
+div#cover-image img {
+    max-width: 100%;
+}
+
+hr.divider {
+    width: 200px;
+}
+
+div.cross-references {
+    font-size: 0.9em;
+}
+
+/* Interlinear CSS */
+
+div.interlinear {
+	text-indent: 0;
+	margin: 0;
+}
+
+
+div.entry {
+    float: left;
+    margin-right: 1em;
+    margin-top: 0em;
+}
+
+p.strongs {
+	font-size: 0.75em;
+	text-align: center;
+}
+
+p.english {
+	text-align:center;
+}

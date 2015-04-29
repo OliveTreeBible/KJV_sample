@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="no"?>
+<package version="3.0" xml:lang="en" xmlns="http://www.idpf.org/2007/opf" unique-identifier="book_id">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="book_id">urn:uuid:535D93A7-C74D-4F5B-89F7-A104445CD2DD</dc:identifier>
+    <dc:title>The Holy Bible: King James Version</dc:title>
+    <dc:publisher>Olive Tree Bible Software</dc:publisher>
+    <dc:language>en</dc:language>
+    <dc:rights>This sample EPUB has been donated to the public domain by Olive Tree Bible Software. Feel free to copy the tagging, structure, or CSS to make your EPUB based Bible study materials better!</dc:rights>
+    <meta property="dcterms:modified">2015-04-16T14:58:00Z</meta>
+    <meta content="cover-image" name="cover" />
+  </metadata>
+  <manifest>
+    <item href="cover.html" id="cover" media-type="application/xhtml+xml"/>
+    <item href="nav.xhtml" id="nav" properties="nav" media-type="application/xhtml+xml"/>
+	<item href="bible.css" id="biblecss" media-type="text/css"/>
+	<item href="kjv.jpg" id="cover-image" media-type="image/jpeg" />
+	<item href="62000_toc.html" id="_62000_toc" media-type="application/xhtml+xml" />
+	<item href="62001.html" id="_62001" media-type="application/xhtml+xml" />
+	<item href="62001_toc.html" id="_62001_toc" media-type="application/xhtml+xml" />
+	<item href="62002.html" id="_62002" media-type="application/xhtml+xml" />
+	<item href="62002_toc.html" id="_62002_toc" media-type="application/xhtml+xml" />
+	<item href="62003.html" id="_62003" media-type="application/xhtml+xml" />
+	<item href="62003_toc.html" id="_62003_toc" media-type="application/xhtml+xml" />
+	<item href="62004.html" id="_62004" media-type="application/xhtml+xml" />
+	<item href="62004_toc.html" id="_62004_toc" media-type="application/xhtml+xml" />
+	<item href="62005.html" id="_62005" media-type="application/xhtml+xml" />
+	<item href="62005_toc.html" id="_62005_toc" media-type="application/xhtml+xml" />
+	<item href="63000_toc.html" id="_63000_toc" media-type="application/xhtml+xml" />
+	<item href="63001.html" id="_63001" media-type="application/xhtml+xml" />
+	<item href="63001_toc.html" id="_63001_toc" media-type="application/xhtml+xml" />
+	<item href="64000_toc.html" id="_64000_toc" media-type="application/xhtml+xml" />
+	<item href="64001.html" id="_64001" media-type="application/xhtml+xml" />
+	<item href="64001_toc.html" id="_64001_toc" media-type="application/xhtml+xml" />
+	<item href="strongs_dictionary.html" id="strongs_dictionary" media-type="application/xhtml+xml" />
+	<item href="interlinear_sample.html" id="interlinear" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine>
+    <itemref idref="cover" />
+ 	<itemref idref="nav" />
+ 	<itemref idref="_62001" />
+ 	<itemref idref="_62002" />
+ 	<itemref idref="_62003" />
+ 	<itemref idref="_62004" />
+ 	<itemref idref="_62005" />
+ 	<itemref idref="_63001" />
+ 	<itemref idref="_64001" />
+ 	<itemref idref="interlinear" />
+ 	<itemref idref="_62000_toc" linear="no"/>
+ 	<itemref idref="_62001_toc" linear="no"/>
+ 	<itemref idref="_62002_toc" linear="no"/>
+ 	<itemref idref="_62003_toc" linear="no"/>
+ 	<itemref idref="_62004_toc" linear="no"/>
+ 	<itemref idref="_62005_toc" linear="no"/>
+ 	<itemref idref="_63000_toc" linear="no"/>
+ 	<itemref idref="_63001_toc" linear="no"/>
+ 	<itemref idref="_64000_toc" linear="no"/>
+ 	<itemref idref="_64001_toc" linear="no"/>
+ 	<itemref idref="strongs_dictionary" linear="no"/>
+  </spine>
+</package>
